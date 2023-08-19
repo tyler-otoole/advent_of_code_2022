@@ -1,4 +1,4 @@
-with open('../data/raw/advent_2022_1.txt', 'r') as f:
+with open('../data/raw/day1.txt', 'r') as f:
     lines = f.readlines()
     calories = [entry.strip() for entry in lines]
 
